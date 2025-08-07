@@ -55,6 +55,7 @@ declare module 'react-draggable' {
     onDrag: DraggableEventHandler,
     onStop: DraggableEventHandler,
     onMouseDown: (e: MouseEvent) => void,
+    onMouseUp: (e: MouseEvent) => void,
     scale: number
   }
 
